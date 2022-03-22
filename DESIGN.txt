@@ -1,0 +1,9 @@
+Design
+
+The only function that I left in the Functions.java file is the random number function. I think it can be use in many different classes and keep it 
+as a static function, then we can use it in any file
+
+More thatn half of the functions in the Functions.java, I moved it to WorldModel.java file. As the name suggest, I think it is reasonable to put
+a lot of functions in the file that create the world. 
+I put around 30% in the Entity.java file because it either create entity or do some action with the entity, so I think Entity.java is the best fit. 
+the rest of the function, depend on the data type and argument in the function, I moved them to the according file depend on the argument in the function.
